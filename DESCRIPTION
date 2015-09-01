@@ -1,0 +1,22 @@
+Package: har
+Title: Human Activity Recognition Data
+Version: 0.1.0.9000
+Date: 2015-09-01
+Authors@R: person(
+  "Adam", "Acosta",
+  email = "adam.acosta@gatech.edu",
+  role = c("aut", "cre"))
+Description: Data comes from the Human Activity Recognition project. Refer to:
+  Ugulino, W.; Cardador, D.; Vega, K.; Velloso, E.; Milidiu, R.; Fuks,
+  H. Wearable Computing: Accelerometers' Data Classification of Body Postures
+  and Movements. Proceedings of 21st Brazilian Symposium on Artificial Intelligence.
+  Advances in Artificial Intelligence - SBIA 2012. In: Lecture Notes in Computer
+  Science. , pp. 52-61. Curitiba, PR: Springer Berlin / Heidelberg, 2012.
+  ISBN 978-3-642-34458-9. DOI: 10.1007/978-3-642-34459-6_6.
+License: CC0
+LazyData: TRUE
+Depends:
+  R (>= 3.2.0)
+Suggests:
+  dplyr
+URL: http://github.com/adamacosta/har
