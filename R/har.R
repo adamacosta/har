@@ -1,4 +1,4 @@
-#' Bank data
+#' Human Activity Recognition Project data
 #'
 #' All columns labeled [x|y|z][1-4] indicate acceleration in the indicated
 #' dimension as measured by an accelerometer. Accelerometer 1 is mounted on the
@@ -28,6 +28,7 @@
 #' \item{x4}{integer}
 #' \item{y4}{integer}
 #' \item{z4}{integer}
+#' \item{class}{factor w/ levels sitting, standing, walking, sittingdown, standingup}
 #' }
 #' @examples
 #'   data(har)

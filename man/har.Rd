@@ -3,7 +3,7 @@
 \docType{data}
 \name{har}
 \alias{har}
-\title{Bank data}
+\title{Human Activity Recognition Project data}
 \format{Data frame with columns
 \describe{
 \item{user}{character Name of study participant}
@@ -24,6 +24,7 @@
 \item{x4}{integer}
 \item{y4}{integer}
 \item{z4}{integer}
+\item{class}{factor w/ levels sitting, standing, walking, sittingdown, standingup}
 }}
 \source{
 Human Activity Recognition Project,
